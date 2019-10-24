@@ -20,6 +20,11 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+
+    mapbox: {
+      style: 'mapbox://styles/mapbox/streets-v11',
+      token: '<your mapbox access token here>'
     }
   };
 
